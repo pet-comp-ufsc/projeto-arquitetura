@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="TelaPrincipal">Tela 1</string>
+    <string name="app_name">telas</string>
+    <string name="BotaoUm">Tela1</string>
+    <string name="BotaoDois">Tela2</string>
+    <string name="BotaoTres">Tela3</string>
+    <string name="NomeTela2">Tela 2</string>
+    <string name="NomeTela3">Tela 3</string>
+    <string name="Texto">Nome</string>
+    <string name="action_settings">Settings</string>
+    <string name="nomeFixo"></string>
+    
+
+</resources>
