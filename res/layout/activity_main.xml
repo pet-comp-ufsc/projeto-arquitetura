@@ -41,8 +41,8 @@
         android:layout_marginTop="64dp"
         android:ems="10"
         android:hint="@string/Texto"
-        android:inputType="textPersonName"
-        android:text="@string/nomeFixo" >
+        android:imeActionLabel="l"
+        android:inputType="textPersonName" >
 
         <requestFocus />
     </EditText>

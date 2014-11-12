@@ -14,6 +14,7 @@ public class tela_2 extends Activity {
 	
 	Button bt1, bt3;
 	TextView texto2;
+	Singleton bd = Singleton.getInstance();
 	
 	
     @Override
@@ -26,6 +27,7 @@ public class tela_2 extends Activity {
         bt3 = (Button) findViewById(R.id.button3);
         texto2 = (TextView) findViewById(R.id.textView2);
         
+        texto2.setText(bd.getText());
         bt1.setOnClickListener(new View.OnClickListener() {
 			
 			@Override

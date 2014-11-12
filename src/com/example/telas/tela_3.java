@@ -7,11 +7,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 
 public class tela_3 extends Activity {
 	
 	Button bt1, bt2;
+	TextView texto3;
+	Singleton bd = Singleton.getInstance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +23,9 @@ public class tela_3 extends Activity {
         
         bt2 = (Button) findViewById(R.id.button2);
         bt1 = (Button) findViewById(R.id.button1);
+        texto3 = (TextView) findViewById(R.id.textView3);
+        
+        texto3.setText(bd.getText());
         
         bt2.setOnClickListener(new View.OnClickListener() {
 			
